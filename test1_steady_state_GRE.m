@@ -430,7 +430,8 @@ for jj=1:length(Niso)
 end
 
 %% plot these
-figfp(1)
+%figfp(1)
+figure();
 nr=3;nc=2;
 cm=colormap(lines);
 sig_epg = {s0,smt,sx};
